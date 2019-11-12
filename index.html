@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Web Crypto API example</title>
+  </head>
+
+  <body>
+    <main>
+      <h1>Web Crypto: encrypt/decrypt</h1>
+
+      <form id="enc">
+        <label>
+          Your message:
+          <textarea name="msg" rows="5" />
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+      <pre style="white-space: pre-wrap" id="encrypted" />
+      <hr />
+    </main>
+
+    <form id="dec">
+      <label>
+        Your message:
+        <textarea name="msg" rows="10" cols="80" />
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+    <pre style="white-space: pre-wrap" id="decrypted" />
+  </body>
+  <script src="main.js"></script>
+</html>
