@@ -1,0 +1,16 @@
+{
+  "name": "proj",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build --public-url . --no-source-maps --experimental-scope-hoisting index.html",
+    "dev": "parcel index.html",
+    "start": "parcel serve index.html"
+  },
+  "author": "Robin Millette <robin@millette.info> (http://robin.millette.info/)",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1"
+  }
+}
