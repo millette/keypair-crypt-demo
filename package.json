@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "parcel build --public-url . --no-source-maps --experimental-scope-hoisting index.html",
+    "build": "parcel build --public-url . --no-source-maps index.html",
     "deploy": "gh-pages -d dist",
     "dev": "parcel index.html",
     "start": "parcel serve index.html"
@@ -11,7 +11,9 @@
   "author": "Robin Millette <robin@millette.info> (http://robin.millette.info/)",
   "license": "AGPL-3.0",
   "devDependencies": {
-    "gh-pages": "^2.2.0",
-    "parcel-bundler": "^1.12.4"
+    "gh-pages": "^2.2.0"
+  },
+  "dependencies": {
+    "parcel": "^1.12.4"
   }
 }
